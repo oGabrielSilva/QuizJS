@@ -1,0 +1,44 @@
+.homescreen header {
+  text-align: center;
+  margin: 15vh 0;
+  text-shadow: 0px 3px 5px #000;
+  background: rgba(255,255,255,.5);
+  padding: 10vh 13vh;
+  border-radius: 1em;
+  box-shadow: 0px 2px 5px #212121;
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  border: 1px solid #0CA70C;
+  background: #0CA70C;
+  justify-content: center;
+  border-radius: 2em;
+  box-shadow: 0 4px 12px black;
+  cursor: pointer;
+}
+
+.play label {
+  text-transform: uppercase;
+  padding: 1em;
+  background: #0CA70C;
+  font-family: monospace;
+  display: block;
+  cursor: pointer;
+}
+
+.play img {
+  height: 2em;
+}
+
+.play input {
+  display: none;
+}
+
+
+/* chooseChallenge */
+
+.chooseChallenge {
+  display: none;
+}

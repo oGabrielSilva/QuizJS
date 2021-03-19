@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 15px;
+  background: linear-gradient(to bottom left, #9d00ff, #0d1d56);
+  height: 100vh;
+  color: whitesmoke;
+  padding: 1em;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 2em;
+  letter-spacing: 3px;
+}
+
+.logo {
+  width: 8vh;
+  cursor: pointer;
+}
+
+.home {
+  border-bottom: 1px solid whitesmoke;
+  margin-bottom: 1em;
+}
