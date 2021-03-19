@@ -1,0 +1,17 @@
+quiz = [
+  { quest: '1. Quanto tempo a Luz do Sol leva para chegar à Terra?', res: {1: '8 minutos', 2: '19 minutos', 3: '2 minutos', 4: '5 minutos'} },
+  { quest: '2. Qual a velocidade da Luz?', res: {1: '300 mil km/s', 2: '300 mil km/h', 3: '298 mil km/h', 4: '298 mil km/s'} },
+  { quest: '3. Qual destes pode chover diamante?', res: {1: 'Urano', 2: 'Marte', 3: 'Vênus', 4: 'Mercúrio'} },
+  { quest: '4. Quem propôs a existência dos Buracos Negros?', res: {1: 'Karl Schwarzschild', 2: 'Albert Einstein', 3: 'Karl Marx', 4: 'Stephen Hawkins'} },
+  { quest: '5. Qual planeta do Sistema Solar tem massa equivalente a 317 vezes a massa da Terra?', res: {1: 'Júpiter', 2: 'Urano', 3: 'Saturno', 4: 'Netuno'} },
+  { quest: '6. A Lua está distante da Terra, em média...', res: {1: '1.282 segundos-luz', 2: '2.252 segundos-luz', 3: '1.381 segundos-luz', 4: '11.282 segundos-luz'} },
+  { quest: '7. A Lua se afasta da Terra, em média...', res: {1: '3 metros por século', 2: '5 metros por ano', 3: '6 centímetros por ano', 4: '12 centímetros por século'} },
+  { quest: '8. Qual o 6º planeta do Sistema Solar?', res: {1: 'Saturno', 2: 'Marte', 3: 'Urano', 4: 'Júpiter'} },
+  { quest: '9. O planeta mais quente do sistema solar é...', res: {1: 'Vênus', 2: 'Mercúrio', 3: 'Marte', 4: 'Netuno'} },
+  { quest: '10. Os especialistas acreditam que a Via Láctea dá origem a...', res: {1: '7 novas estrelas por ano', 2: '2 estrelas por mês', 3: '14 estrelas por década', 4: '5 estrelas por ano'} },
+  { quest: '11. O que está localizado no centro da nossa galáxia?', res: {1: 'Buraco Negro', 2: 'Nada', 3: 'Um enorme planeta', 4: 'Várias estrelas'} },
+  { quest: '12. Quem propôs a teoria que hoje conhecemos como Big Bang?', res: {1: 'Georges Lemaître', 2: 'Albert Einstein', 3: 'Stephen Hawkins', 4: 'Edwin Hubble'} },
+  { quest: '13. Qual o menor planeta do sistema solar?', res: {1: 'Mercúrio', 2: 'Terra', 3: 'Plutão', 4: 'Marte'} },
+  { quest: '14. Qual a cor da estrela do Sistema Solar?', res: {1: 'Branco', 2: 'Amarelo', 3: 'Verde', 4: 'Laranja'} },
+  { quest: '15. Estima-se que este objeto foi o primeiro a sair do Sistema Solar.', res: {1: 'Voyager 1', 2: 'Sputnik', 3: 'Luna 10', 4: 'Galileo'} },
+]
