@@ -8,7 +8,7 @@
   padding: 1.5em;
   border: none;
   color: whitesmoke;
-  background: radial-gradient(circle, #190152, #000);
+  background: radial-gradient(circle, #360c9a, #111e79);
   box-shadow: 0px 2px 5px #212121;
   text-transform: uppercase;
   outline: 0;
@@ -28,7 +28,7 @@
   text-shadow: 1px 1px 7px black;
   border: 1px solid whitesmoke;
   padding: 1em;
-  background: rgba(245, 245, 245, .5);
+  background: radial-gradient(circle, #22139e, #170867);
   border-radius: 1em;
   margin: 1em 0 3em;
   font-size: 1.5em;
