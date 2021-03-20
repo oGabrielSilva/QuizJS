@@ -11,8 +11,10 @@ challange = [
 const play = document.querySelector('#play')
 const home = document.querySelector('#home')
 
-home.addEventListener('click', () => {
+home.addEventListener('click', btHome)
+
+function btHome() {
   document.querySelector('.chooseChallenge').style.display = 'none'
   document.querySelector('#quizStart').style.display = 'none'
   document.querySelector('.homescreen').style.display = 'block'
-})
+}

@@ -6,7 +6,7 @@ quiz = [
   { quest: '5. Qual planeta do Sistema Solar tem massa equivalente a 317 vezes a massa da Terra?', res: {1: 'Júpiter', 2: 'Urano', 3: 'Saturno', 4: 'Netuno'} },
   { quest: '6. A Lua está distante da Terra, em média...', res: {1: '1.282 segundos-luz', 2: '2.252 segundos-luz', 3: '1.381 segundos-luz', 4: '11.282 segundos-luz'} },
   { quest: '7. A Lua se afasta da Terra, em média...', res: {1: '3 metros por século', 2: '5 metros por ano', 3: '6 centímetros por ano', 4: '12 centímetros por século'} },
-  { quest: '8. Qual o 6º planeta do Sistema Solar?', res: {1: 'Saturno', 2: 'Marte', 3: 'Urano', 4: 'Júpiter'} },
+  { quest: '8. Qual o sexto planeta do Sistema Solar?', res: {1: 'Saturno', 2: 'Marte', 3: 'Urano', 4: 'Júpiter'} },
   { quest: '9. O planeta mais quente do sistema solar é...', res: {1: 'Vênus', 2: 'Mercúrio', 3: 'Marte', 4: 'Netuno'} },
   { quest: '10. Os especialistas acreditam que a Via Láctea dá origem a...', res: {1: '7 novas estrelas por ano', 2: '2 estrelas por mês', 3: '14 estrelas por década', 4: '5 estrelas por ano'} },
   { quest: '11. O que está localizado no centro da nossa galáxia?', res: {1: 'Buraco Negro', 2: 'Nada', 3: 'Um enorme planeta', 4: 'Várias estrelas'} },

@@ -34,6 +34,10 @@ function playStart() {
     c4 = document.querySelector('#c4')
 
     c0.addEventListener('click', c0Start)
+    c1.addEventListener('click', c1Start)
+    c2.addEventListener('click', c2Start)
+    c3.addEventListener('click', c3Start)
+    c4.addEventListener('click', c4Start)
 }}
 
 let c0
@@ -44,14 +48,31 @@ let c4
 let quizStart = document.querySelector('#quizStart')
 let quizAux = 0
 let tryCounter = 3
+let erro = 0
+let tryCounterAux = true
 
+
+//quiz 1
 function c0Start() {
-  //verifica se ainda tem chances
-  if (tryCounter <= 0) {
-    tryCounter = 1
+  //verifica se já passou por todas as perguntas
+  if (quizAux >= 15) {
+    alert(`Parabéns! Você finalizou o quiz.\nVocê teve ${erro} erros em 15 perguntas.`)
     quizAux = 0
-    alert('Suas tentativas acabaram. O jogo retornará da primeira pergunta. Você só tem uma chance de agora em diante.')
-    playStart()
+    btHome()
+    return;
+  }
+  //verifica se ainda tem chances
+  if (tryCounter <= 0 && tryCounterAux == true) {
+    tryCounter = 1
+    tryCounterAux = false
+    quizAux = 0
+    alert('Suas tentativas acabaram. O jogo retornará da primeira pergunta sempre que você errar.')
+
+  }
+
+  if (tryCounter <= 0 && tryCounterAux == false) {
+    quizAux = 0
+    tryCounter = 1
   }
   //ordem das questões
   let aux = []
@@ -95,7 +116,7 @@ function c0Start() {
 
   r2.addEventListener('click', () => {
     r2.style.background = '#f00'
-
+    erro++
     tryCounter--
     setTimeout(() => {
       r2.style.background = '#0CA70C'
@@ -105,7 +126,7 @@ function c0Start() {
 
   r3.addEventListener('click', () => {
     r3.style.background = '#f00'
-
+    erro++
     tryCounter--
     setTimeout(() => {
       r3.style.background = '#0CA70C'
@@ -114,6 +135,7 @@ function c0Start() {
   })
 
   r4.addEventListener('click', () => {
+    erro++
     r4.style.background = '#f00'
 
     tryCounter--
@@ -130,3 +152,28 @@ let r1
 let r2
 let r3
 let r4
+
+
+//quiz 2
+function c1Start() {
+  alert('Arquivo em manutenção.')
+  return
+}
+
+//quiz 3
+function c2Start() {
+  alert('Arquivo em manutenção.')
+  return
+}
+
+//quiz 4
+function c3Start() {
+  alert('Arquivo em manutenção.')
+  return
+}
+
+//quiz 5
+function c4Start() {
+  alert('Arquivo em manutenção.')
+  return
+}
