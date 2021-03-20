@@ -31,5 +31,5 @@ quizGeo = [
   {quest:'O maior continente do mundo', res: {1: 'Ásia', 2: 'América', 3: 'África', 4: 'Antártida'}},
   {quest:'Qual a capital dos EUA?', res: {1: 'Washington, D.C.', 2: 'Chicago', 3: 'Nova York', 4: 'Pierre'}},
   {quest:'Capital do Canadá é...', res: {1: 'Ottawa', 2: 'Toronto', 3: 'Vancouver', 4: 'Kingston'}},
-  {quest:'Iraque localiza-se em', res: {1: 'Ásia', 2: 'África', 3: 'Oriente Médio', 4: 'Europa'}},
+  {quest:'Iraque localiza-se em qual continente?', res: {1: 'Ásia', 2: 'África', 3: 'Oriente Médio', 4: 'Europa'}},
 ]
