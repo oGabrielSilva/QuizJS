@@ -1,5 +1,5 @@
 #chooseChallenge p {
-  margin: 3em 1em;
+  margin: 1.5em 0 0;
   text-align: center;
 
 }
@@ -8,12 +8,14 @@
   padding: 1.5em;
   border: none;
   color: whitesmoke;
-  background: #0CA70C;
+  background: #26089e;
   box-shadow: 0px 2px 5px #212121;
   text-transform: uppercase;
   outline: 0;
   cursor: pointer;
-  border-radius: 1em;
+  min-width: 80%;
+  max-width: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 #quizStart {
@@ -25,10 +27,11 @@
   text-align: center;
   text-shadow: 1px 1px 7px black;
   border: 1px solid whitesmoke;
-  padding: .5em;
+  padding: 1em;
   background: rgba(245, 245, 245, .5);
   border-radius: 1em;
-  margin: 1.5em;
+  margin: 1em 0 3em;
+  font-size: 1.5em;
 }
 
 #quizStart p {
