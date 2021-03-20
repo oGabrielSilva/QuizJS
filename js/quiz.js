@@ -15,3 +15,21 @@ quiz = [
   { quest: '14. Qual a cor da estrela do Sistema Solar?', res: {1: 'Branco', 2: 'Amarelo', 3: 'Verde', 4: 'Laranja'} },
   { quest: '15. Estima-se que este objeto foi o primeiro a sair do Sistema Solar.', res: {1: 'Voyager 1', 2: 'Sputnik', 3: 'Luna 10', 4: 'Galileo'} },
 ]
+
+quizGeo = [
+  {quest:'Grécia é um país do continente', res: {1: 'Europeu', 2: 'Africano', 3: 'Asiático', 4: 'Oceânico'}},
+  {quest:'O Brasil localiza-se em...', res: {1: 'América do Sul', 2: 'América do Norte', 3: 'América Central', 4: 'África'}},
+  {quest:'Capital da Espanha é...', res: {1: 'Madrid', 2: 'Barcelona', 3: 'Salamanca', 4: 'Valência'}},
+  {quest:'Onde localiza-se o Egito?', res: {1: 'África', 2: 'Grécia', 3: 'Oriente Médio', 4: 'Sul do Oriente Médio'}},
+  {quest:'Qual destes países não faz parte do Oriente Médio?', res: {1: 'Nepal', 2: 'Omã', 3: 'Bahrain', 4: 'Turquia'}},
+  {quest:'Um destes é do Reino Unido...', res: {1: 'País de Gales', 2: 'Suécia', 3: 'Noruega', 4: 'Islândia'}},
+  {quest:'Este faz fronteira com o Sul do Brasil', res: {1: 'Uruguai', 2: 'Paraguai', 3: 'Suriname', 4: 'Guiana Francesa'}},
+  {quest:'Continente de Madagascar', res: {1: 'África', 2: 'Europa', 3: 'Ásia', 4: 'Leste da Ásia'}},
+  {quest:'O Oceano que banha o Brasil', res: {1: 'Oceano Atlântico', 2: 'Oceano Pacífico', 3: 'Oceano Índico', 4: 'Oceano Ártico'}},
+  {quest:'E o Oceano que banha o Chile?', res: {1: 'Oceano Pacífico', 2: 'Oceano Atlântico', 3: 'Oceano Atlântico Sul', 4: 'Oceano Pacífico Norte'}},
+  {quest:'Chernobyl e Pripyat localizam-se no país', res: {1: 'Ucrânia', 2: 'Bielorrússia', 3: 'Rússia', 4: 'Polônia'}},
+  {quest:'O maior continente do mundo', res: {1: 'Ásia', 2: 'América', 3: 'África', 4: 'Antártida'}},
+  {quest:'Qual a capital dos EUA?', res: {1: 'Washington, D.C.', 2: 'Chicago', 3: 'Nova York', 4: 'Pierre'}},
+  {quest:'Capital do Canadá é...', res: {1: 'Ottawa', 2: 'Toronto', 3: 'Vancouver', 4: 'Kingston'}},
+  {quest:'Iraque localiza-se em', res: {1: 'Ásia', 2: 'África', 3: 'Oriente Médio', 4: 'Europa'}},
+]

@@ -46,13 +46,16 @@ let c2
 let c3
 let c4
 let quizStart = document.querySelector('#quizStart')
+
+
+
+//quiz 1
+
 let quizAux = 0
 let tryCounter = 3
 let erro = 0
 let tryCounterAux = true
 
-
-//quiz 1
 function c0Start() {
   //verifica se já passou por todas as perguntas
   if (quizAux >= 15) {
@@ -155,10 +158,114 @@ let r4
 
 
 //quiz 2
+let quiz2Aux = 0
+let tryCounter2 = 3
+let tryCounter2Aux = true
+let erro2 = 0
+
 function c1Start() {
-  alert('Arquivo em manutenção.')
-  return
+  if (quiz2Aux >= 15) {
+    alert(`Parabéns! Você finalizou o quiz.\nVocê teve ${erro2} erros em 15 perguntas.`)
+    quiz2Aux = 0
+    btHome()
+    return;
+  }
+  //verifica se ainda tem chances
+  if (tryCounter2 <= 0 && tryCounter2Aux == true) {
+    tryCounter2 = 1
+    tryCounter2Aux = false
+    quiz2Aux = 0
+    alert('Suas tentativas acabaram. O jogo retornará da primeira pergunta sempre que você errar.')
+
+  }
+
+  if (tryCounter2 <= 0 && tryCounter2Aux == false) {
+    quiz2Aux = 0
+    tryCounter2 = 1
+  }
+
+  let aux = []
+  let o
+
+  for (aux; aux.length < 4;) {
+    o = Math.ceil(Math.random () * 4)
+    if (aux.indexOf(o) < 0) {
+      aux.push(o)
+    }
+  }
+// -----------------------
+//innerHTML
+
+  quizStart.innerHTML = `
+    <h1>${quizGeo[quiz2Aux].quest}</h1>
+  `
+  for (var i = 0; i < aux.length; i++) {
+    quizStart.innerHTML += `
+      <p><input type="button" value="${quizGeo[quiz2Aux].res[aux[i]]}" id="r${aux[i]}"></p>
+    `
+  }
+
+  startQuiz()
+  r1 = document.querySelector('#r1')
+  r2 = document.querySelector('#r2')
+  r3 = document.querySelector('#r3')
+  r4 = document.querySelector('#r4')
+
+  r1.addEventListener('click', () => {
+    quiz2Aux++
+    r1.style.background = '#00ff4e'
+
+    setTimeout(() => {
+      r1.style.background = '#0CA70C'
+      c1Start()
+    }, 300)
+
+
+  })
+
+  r2.addEventListener('click', () => {
+    r2.style.background = '#f00'
+    erro2++
+    tryCounter2--
+    setTimeout(() => {
+      r2.style.background = '#0CA70C'
+      c1Start()
+    }, 300)
+  })
+
+  r3.addEventListener('click', () => {
+    r3.style.background = '#f00'
+    erro2++
+    tryCounter2--
+    setTimeout(() => {
+      r3.style.background = '#0CA70C'
+      c1Start()
+    }, 300)
+  })
+
+  r4.addEventListener('click', () => {
+    erro2++
+    r4.style.background = '#f00'
+
+    tryCounter2--
+    setTimeout(() => {
+      r4.style.background = '#0CA70C'
+      c1Start()
+    }, 300)
+  })
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 //quiz 3
 function c2Start() {
