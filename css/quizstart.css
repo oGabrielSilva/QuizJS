@@ -12,6 +12,7 @@
   box-shadow: 0px 2px 5px #212121;
   text-transform: uppercase;
   outline: 0;
+  cursor: pointer;
   border-radius: 1em;
 }
 
