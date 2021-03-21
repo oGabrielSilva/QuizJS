@@ -5,10 +5,10 @@ let assuQuiz = ``
 
 //desafios pré-definidos
 challange = [
-  '15 perguntas de astronomia',
-  '15 perguntas de geografia',
-  '15 perguntas de história',
-  '15 perguntas',
+  'Astronomia',
+  'Geografia',
+  'História',
+  'Conhecimentos gerais',
   'especial'
 ]
 
