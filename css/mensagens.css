@@ -1,0 +1,42 @@
+.mensagens {
+  display: none;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(00, 00, 00, .8);
+}
+
+.aviso {
+  display: none;
+  text-align: center;
+  position: fixed;
+  min-width: 90%;
+  top: 38%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #fff;
+  border-radius: .5em;
+  background: radial-gradient(circle, #030931, #090940);
+  padding: 1em;
+}
+
+.aviso p {
+  margin-bottom: 3em;
+  padding: .5em;
+}
+
+.aviso input {
+  padding: 1em 3em;
+  outline: 0;
+  border: none;
+  background: #0abb0a;
+  cursor: pointer;
+  color: whitesmoke;
+  border-radius: .5em;
+}
+
+.final {
+  display: none;
+}

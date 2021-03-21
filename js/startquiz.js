@@ -69,7 +69,7 @@ function c0Start() {
     tryCounter = 1
     tryCounterAux = false
     quizAux = 0
-    alert('Suas tentativas acabaram. O jogo retornará da primeira pergunta sempre que você errar.')
+    outAviso()
 
   }
 
@@ -175,8 +175,7 @@ function c1Start() {
     tryCounter2 = 1
     tryCounter2Aux = false
     quiz2Aux = 0
-    alert('Suas tentativas acabaram. O jogo retornará da primeira pergunta sempre que você errar.')
-
+    outAviso()
   }
 
   if (tryCounter2 <= 0 && tryCounter2Aux == false) {
