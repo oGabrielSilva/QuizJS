@@ -7,7 +7,7 @@ function startQuiz() {
 play.addEventListener('click', playStart)
 
 function playStart() {
-  {
+
     document.querySelector('.chooseChallenge').style.display = 'block'
     document.querySelector('#chooseChallenge').style.display = 'block'
     document.querySelector('.homescreen').style.display = 'none'
@@ -38,7 +38,7 @@ function playStart() {
     c2.addEventListener('click', c2Start)
     c3.addEventListener('click', c3Start)
     c4.addEventListener('click', c4Start)
-}}
+}
 
 let c0
 let c1
@@ -48,6 +48,7 @@ let c4
 let quizStart = document.querySelector('#quizStart')
 
 
+const final = document.querySelector('#outFinal')
 
 //quiz 1
 
@@ -57,10 +58,12 @@ let erro = 0
 let tryCounterAux = true
 
 function c0Start() {
+  assuQuiz = 'Astronomia'
   //verifica se já passou por todas as perguntas
   if (quizAux >= 15) {
-    alert(`Parabéns! Você finalizou o quiz.\nVocê teve ${erro} erros em 15 perguntas.`)
+    final.textContent = `Acabou de finalizar o QuizJS. Conquistou ${erro} erros em um total de 15 perguntas.`
     quizAux = 0
+    finalMens()
     btHome()
     return;
   }
@@ -164,9 +167,11 @@ let tryCounter2Aux = true
 let erro2 = 0
 
 function c1Start() {
+  assuQuiz = 'Geografia'
   if (quiz2Aux >= 15) {
-    alert(`Parabéns! Você finalizou o quiz.\nVocê teve ${erro2} erros em 15 perguntas.`)
+    final.textContent = `Acabou de finalizar o QuizJS. Conquistou ${erro2} erros em um total de 15 perguntas.`
     quiz2Aux = 0
+    finalMens()
     btHome()
     return;
   }
