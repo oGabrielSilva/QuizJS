@@ -9,7 +9,7 @@ challange = [
   'Geografia',
   'História',
   'Conhecimentos gerais',
-  'especial'
+  'Mitologias'
 ]
 
 //botão de iniciar e const para retomar à tela inicial
