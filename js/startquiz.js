@@ -499,7 +499,7 @@ function c4Start() {
   assuQuiz = 'Mitologias (egipcía, grega e nórdica)'
   //verifica se já passou por todas as perguntas
   if (quiz5Aux >= 15) {
-    final.textContent = `Acabou de finalizar o QuizJS. Conquistou ${erro5} erros em um total de 21 perguntas.`
+    final.textContent = `Acabou de finalizar o QuizJS. Conquistou ${erro5} erros em um total de ${quizEspecial.length} perguntas.`
     quiz5Aux = 0
     finalMens()
     btHome()

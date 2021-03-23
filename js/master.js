@@ -21,7 +21,7 @@ home.addEventListener('click', btHome)
 function btHome() {
   document.querySelector('.chooseChallenge').style.display = 'none'
   document.querySelector('#quizStart').style.display = 'none'
-  document.querySelector('.homescreen').style.display = 'block'
+  document.querySelector('.homescreen').style.display = 'flex'
 }
 
 
