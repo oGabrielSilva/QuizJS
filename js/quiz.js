@@ -75,3 +75,26 @@ quizConG = [
   { quest: '20. Qual o maior rio do mundo?', res: {1: 'Rio Amazonas', 2: 'Rio Nilo', 3: 'Rio Yangtzé', 4: 'Rio Mississippi'} },
   { quest: '21. Antes do Amazonas ser considerado o maior rio do mundo, acreditava-se que este era o maior', res: {1: 'Rio Nilo', 2: 'Rio Congo', 3: 'Rio Yangtzé', 4: 'Rio Mississippi'} },
 ]
+
+quizEspecial = [
+  { quest: 'M. Egipcía: quem foi o criador do universo?', res: {1: 'Rá', 2: 'Tebas', 3: 'Osíris', 4: 'Anúbis'} },
+  { quest: 'M. Egipcía: Amon, um deus pouco conhecido. Adorado em Tebas antes da fundação da XVIII dinastia. Porém, passou a ser o deus mais importante após ser relacionado a', res: {1: 'Rá', 2: 'Anúbis', 3: 'Osíris', 4: 'Hórus'} },   //mitologia egipcía
+  { quest: 'M. Egipcía: Amon foi relacionado a Rá, o criador de todo o universo e pai de todos os deuses. Assim, Amon passou a ser chamado de', res: {1: 'Amon-Rá', 2: 'Rá', 3: 'Ramon', 4: 'Consu'} },
+  { quest: 'M. Egipcía: o deus da Lua e juiz dos mortos era filho de Rá. Seu nome era ', res: {1: 'Tot', 2: 'Íbis', 3: 'Hator', 4: 'Néftis'} },
+  { quest: 'M. Egipcía: Seth era o deus do(a)', res: {1: 'Caos', 2: 'Paixão', 3: 'Sol', 4: 'Mares'} },
+  { quest: '', res: {1: '', 2: '', 3: '', 4: ''} },   //mitologia egipcía
+  
+  { quest: 'M. Grega: Quem é o rei dos deuses gregos?', res: {1: 'Zeus', 2: 'Poseidon', 3: 'Hades', 4: 'Ares'} },   //mitologia grega
+  { quest: 'M. Grega: e o deus da velocidade?', res: {1: 'Hermes', 2: 'Apolo', 3: 'Hera', 4: 'Ártemis'} },
+  { quest: 'M. Grega: Ártemis era uma das deusas principais dos gregos. Mas qual era a sua divindade?', res: {1: 'Caça', 2: 'Força', 3: 'Esperança', 4: 'Beleza'} },
+  { quest: 'M. Grega: quem era a deusa grega da sabedoria, das artes, da inteligência, da guerra e da justiça?', res: {1: 'Atena', 2: 'Perséfone', 3: 'Afrodite', 4: 'Héstia'} },
+  { quest: 'M. Grega: quem é o deus da paixão, do amor e do erotismo na mitologia grega? Equivalente a Cupido na mitologia romana.', res: {1: 'Eros', 2: 'Têmis', 3: 'Apolo', 4: 'Deméter'} },
+  { quest: 'quem era o(a) deus(a) dos terremotos, das tempestades e dos cavalos? Também chamado de deus(a) da fertilidade.', res: {1: 'Poseidon', 2: 'Zeus', 3: 'Horas', 4: 'Hera'} },   //mitologia grega
+  
+  { quest: 'M. Nórdica: quem era a mulher de Odin?', res: {1: 'FRIGG', 2: 'HEL', 3: '', 4: 'HELA'} },   //mitologia nordica
+  { quest: 'M. Nórdica: quem eram os dois corvos que andavam com Odin?', res: {1: 'Huginn e Muninn', 2: 'Dag e Eir', 3: 'Hoder e Mimir', 4: 'Ran e Munnin'} },
+  { quest: 'M. Nórdica: quem destes é o irmão adotivo de Odin?', res: {1: 'Loki', 2: 'Bragi', 3: 'Tyr', 4: 'Forseti'} },
+  { quest: 'M. Nórdica: Odin era o deus mais importante da mitologia, porém, havia alguém que até mesmo Odin louvava. Quem era?', res: {1: 'Balder', 2: 'Freya', 3: 'Thor', 4: 'Frigg'} },
+  { quest: 'M. Nórdica: qual destes era deus da poesia?', res: {1: 'Iduna', 2: 'Balder', 3: 'Tyr', 4: 'Dag'} },
+  { quest: 'M. Nórdica: quem era a esposa de Thor?', res: {1: 'Sif', 2: 'Iduna', 3: 'Hela', 4: 'Eir'} },   //mitologia nordica
+]
